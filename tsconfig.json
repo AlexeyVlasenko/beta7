@@ -1,0 +1,38 @@
+{
+  "ts-node": {
+    "transpileOnly": true,
+    "require": [
+      "typescript-transform-paths/register",
+      "tsconfig-paths/register"
+    ]
+  },
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@src": ["/*"],
+      "@utils": ["utils"],
+      "@schemas": ["schemas"],
+      "@schemas/*": ["schemas/*"],
+      "@services": ["services"],
+      "@services/*": ["services/*"]
+    },
+    "outDir": "dist",
+    "lib": ["es2019", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2019",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules",
+    "benchmarks",
+    "dist",
+    "docusaurus"
+  ]
+}
