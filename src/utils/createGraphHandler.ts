@@ -1,4 +1,4 @@
-export default async (func: Function, errorMessage: string) => {
+export default async (func: Function, errorMessage?: string) => {
   try {
     return await func();
   } catch (e: any) {

@@ -1,6 +1,6 @@
 {
-  "name": "@playtini/beta7",
-  "version": "0.0.33",
+  "name": "@alexeyvlasenko/beta7",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "scripts": {
     "start": "nodemon src/dev.ts",
@@ -51,9 +51,9 @@
   "author": "Playtini",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/playtini/beta7/issues"
+    "url": "https://github.com/alexeyvlasenko/beta7/issues"
   },
-  "homepage": "https://github.com/playtini/beta7#readme",
+  "homepage": "https://github.com/alexeyvlasenko/beta7#readme",
   "keywords": [
     "Microframework",
     "for",
